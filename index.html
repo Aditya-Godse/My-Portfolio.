@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                My name is <span>Aditya Godse</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightSection">
+                <img src="web.png" alt="Man doing some work">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textGray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="firstLine"></div>
+            <div id="experienceBox">
+                <div class="secondLine">
+                    <img src="dev.png" alt="Developer image">
+                    <div class="verticalHeader">Web_Developer (Beginner)</div>
+                    <div class="verticalText">As a beginner web developer, building my personal website taught me the
+                        basics of HTML, CSS, and JavaScript, helped me understand responsive design, and introduced me
+                        to version control with Git, giving me hands-on experience in creating, deploying, and
+                        maintaining a simple yet functional site that showcases my learning progress.</div>
+                </div>
+                <div class="secondLine">
+                    <img src="revenue.png" alt="Developer image">
+                    <div class="verticalHeader">Data_entry specialist (Advanced)</div>
+                    <div class="verticalText">At WNS, I gained hands-on experience in data entry, ensuring high accuracy
+                        while managing large volumes of client information, meeting tight deadlines, maintaining
+                        confidentiality, using Excel and internal systems, and contributing to efficient workflow and
+                        data integrity.</div>
+                </div>
+                <div class="secondLine">
+                    <img src="meta.png" alt="Developer image">
+                    <div class="verticalHeader">(Non)</div>
+                    <div class="verticalText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        blanditiis sed aperiam a. Aliquam et praesentium modi temporibus maiores, optio non sed
+                        cupiditate vel. Distinctio ipsam dolor tenetur deleniti natus!</div>
+                </div>
+                <div class="secondLine">
+                    <img src="twitter.png" alt="Developer image">
+                    <div class="verticalHeader">(Non)</div>
+                    <div class="verticalText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        blanditiis sed aperiam a. Aliquam et praesentium modi temporibus maiores, optio non sed
+                        cupiditate vel. Distinctio ipsam dolor tenetur deleniti natus!</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerFirst">
+                <h2>Aditya's Developer Portfolio</h2>
+            </div>
+            <div class="footerSecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footerThird">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footerFourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Video Editor.', 'SQL Beginner.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    height: 180vh;}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(35, 11, 60);}
+
+nav ul {
+    display: flex;
+    justify-content: center;}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;}
+
+nav ul li a{
+    text-decoration: none;}
+
+nav ul li a:hover{
+    color: rgb(180, 180, 234);
+    font-size: 1.01rem;}
+
+.left{
+    font-size: 1.5rem;}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;}
+
+.firstSection section{
+    width: 30%;}
+
+img{
+    width: 100%;
+    height: 500px;}
+
+.leftSection{
+    padding: 30PX;
+    font-size: 2.7rem;}
+
+span{   
+    color: blueviolet;}
+
+.leftSection > div{
+    padding: 10PX;}
+
+main hr{
+    border: 0;
+    height: 1px;
+    margin: 150px 40px 40px 40px;
+    background-color: rgb(180, 180, 234);}
+
+h1{
+    font-size: 1.7rem;
+    margin: 10px 120px 50px 120px;}
+
+.firstLine{
+    margin: 0px 150px 0px 150px;
+    width: 85%;
+    height: 1px;
+    background-color: white;}
+
+.secondLine{
+    margin: 0px 0px 0px 375px;
+    width: 1px;
+    height: 70px;
+    background-color: white;}
+
+#experienceBox{
+    display: flex;}
+
+.textGray{
+    margin: 0px 120px;
+    color: gray;}
+
+.secondLine img{
+    position: relative;
+    top: -40px;
+    left: -8px;
+    width: 30px;
+    height: 30px;}
+
+.verticalHeader{
+    position: relative;
+    right: 50px;
+    top: 50px;
+    font-size: 1.2rem;}
+
+.verticalText{
+    position: relative;
+    top: 80px;
+    right: 50px;
+    width: 250px;
+    color: gray;}
+
+footer{
+    background-color: rgb(35, 11, 60);
+    width: 100%;
+    height: 180px;
+    margin: 500px 0;}
+
+.footer{
+    position: relative;
+    top: 30px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;}
+
+.footer div{
+    width: 15%;}
+
+.footer li{
+    list-style: none;}
