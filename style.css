@@ -7,7 +7,7 @@ body {
     background-color: rgb(0, 0, 33);
     color: white;
     font-family: "Poppins", sans-serif;
-    height: 180vh;}
+    height: 100vh;}
 
 nav {
     display: flex;
@@ -56,6 +56,19 @@ span{
 
 .leftSection > div{
     padding: 10PX;}
+
+.leftSection button{
+    background-color: rgb(22, 2, 22);
+    color: white;
+    padding: 12px 15px;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;}
+
+.leftSection button:hover{
+    color: blueviolet;}
 
 main hr{
     border: 0;
@@ -109,7 +122,6 @@ h1{
 footer{
     background-color: rgb(26, 9, 44);
     width: 100%;
-    height: 180px;
     margin: 500px 0;}
 
 .footer{
@@ -131,3 +143,8 @@ footer{
 
 .footer ul li a:hover{
     color: gray;}
+
+footer .footerRights{
+    text-align: center;
+    color: gray;
+    margin: 40px;}
